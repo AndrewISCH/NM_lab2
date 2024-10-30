@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+td{
+  border: 2px solid black;
+  border-left: none;
+  border-bottom: none;
+  padding: 0 12px;
+}
+
+tbody tr:last-child td{
+  border-bottom: 2px solid black;
+}
